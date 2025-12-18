@@ -130,7 +130,7 @@ def show_prediction(model, le_comm, le_gogo, all_commanders):
                 'synergy_count_shadowcell', 'synergy_count_mortal_rival', 'synergy_count_kof', 
                 'synergy_count_soul_vessels', 'synergy_count_starwing', 'synergy_count_luminexus', 
                 'synergy_count_aspirant', 'synergy_count_toy_mischief', 'synergy_count_glory_league', 
-                'synergy_count_metro_zero', 'synergy_count_beyond_the_clouds', 
+                'synergy_count_metro_zero', 'synergy_count_beyond_the_clouds', 'synergy_count_bruiser',
                 'synergy_count_defender', 'synergy_count_dauntless',
                 'synergy_count_weapon_master', 'synergy_count_marksman', 'synergy_count_stargazer', 
                 'synergy_count_swiftblade', 'synergy_count_mage', 'synergy_count_phasewarper', 
