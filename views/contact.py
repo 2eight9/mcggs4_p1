@@ -8,7 +8,7 @@ def show_contact():
     # Kode HTML ini sengaja diratakan ke kiri agar tidak dianggap text biasa
     contact_form = """
     
-<form action="https://formspree.io/f/mdannvwe" method="POST">
+<form action="https://formspree.io/f/xeejqopw" method="POST">
     <input type="text" name="name" placeholder="Nama Lengkap" required style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;">
     <input type="email" name="email" placeholder="Alamat Email Anda" required style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;">
     <textarea name="message" placeholder="Tulis pesan Anda di sini..." required style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc; min-height: 100px;"></textarea>

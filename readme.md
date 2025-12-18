@@ -17,7 +17,7 @@ Aplikasi ini dikembangkan untuk memprediksi peluang kemenangan (Win Rate) user d
 
 ## 🖼️ Tampilan Aplikasi
 
-![Dashboard Preview](Readme/Home.png)
+![Dashboard Preview](screenshot.png)
 _(Gambar di atas adalah tampilan antarmuka aplikasi saat dijalankan)_
 
 ---
