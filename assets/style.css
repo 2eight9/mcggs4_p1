@@ -1,0 +1,91 @@
+/* Import Font Keren dari Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Mengatur Font Utama */
+html, body, [class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --- SETTING BACKGROUND GELAP & BLUR --- */
+[data-testid="stAppViewContainer"]::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    /* Mengambil gambar dari variable yang dikirim Python */
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* EFEK KUNCI: */
+    filter: blur(10px) brightness(0.4); /* Atur tingkat blur & gelap disini */
+    transform: scale(1.1); /* Zoom sedikit agar pinggiran blur tidak putih */
+    z-index: -1; /* Taruh di belakang layer konten */
+}
+
+[data-testid="stHeader"] {
+    background-color: transparent;
+}
+
+/* Background Aplikasi Gelap Elegan */
+.stApp {
+    background-color: #0e1117;
+}
+
+/* --- Container Kaca (Glassmorphism) --- */
+/* Ini membuat kotak putih transparan yang keren */
+.glass-container {
+    background: rgba(22, 27, 34, 0.75); /* Warna gelap transparan */
+    backdrop-filter: blur(12px);         /* Efek blur di belakang kaca */
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Garis tepi tipis */
+    border-radius: 20px;                 /* Sudut melengkung */
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Bayangan */
+}
+
+/* Mengubah Warna Teks Judul jadi Putih */
+h1, h2, h3 {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* Desain Tombol Gradasi (Biru ke Hijau) */
+div.stButton > button {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: #000; /* Teks Hitam */
+    font-weight: 700;
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease; /* Animasi halus saat di-hover */
+}
+
+/* Efek saat Tombol disorot mouse */
+div.stButton > button:hover {
+    transform: translateY(-3px); /* Naik sedikit */
+    box-shadow: 0 10px 20px rgba(0, 201, 255, 0.4); /* Ada cahaya */
+}
+
+/* Style Header Custom */
+.custom-header {
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+/* Style Footer Custom */
+.custom-footer {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #8b949e;
+}
+
+
