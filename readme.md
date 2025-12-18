@@ -70,13 +70,30 @@ Jika ingin menjalankan proyek ini di komputer Anda sendiri:
 ## 📂 Struktur Folder
 
 ```text
-mcggs4_p1/
-├── 📄 app.py                  # File utama aplikasi (Entry point)
-├── 📄 utils.py                # Fungsi logika (Tier logic, load model, CSS)
-├── 📂 views/
-│   └── 📄 prediction.py       # Tampilan halaman prediksi & input user
-├── 📂 images/                 # Aset gambar Commander
-├── 📄 requirements.txt        # Daftar library yang dibutuhkan
-├── 📄 screenshot.png          # Preview tampilan aplikasi
-└── 📄 *.pkl files             # Model ML & Encoder yang sudah dilatih
-```
+├── 📂 assets/                    # Aset tampilan (Background, Logo, CSS)
+│   ├── background.png
+│   ├── logo_sidebar.png
+│   └── style.css
+│
+├── 📂 components/                # Komponen UI (Header & Footer)
+│   ├── footer.py
+│   └── header.py
+│
+├── 📂 images/                    # Koleksi gambar Hero & Commander
+│
+├── 📂 views/                     # Halaman menu aplikasi
+│   ├── about.py
+│   ├── contact.py
+│   ├── home.py
+│   ├── navbar.py
+│   └── prediction.py
+│
+├── .gitignore                    # File yang diabaikan Git
+├── app.py                        # 🚀 File UTAMA untuk menjalankan Streamlit
+├── encoder_commander_name.pkl    # Encoder fitur Commander
+├── encoder_gogo_commander.pkl    # Encoder fitur Gogo Commander
+├── model_magic_chess_final.pkl   # 🤖 File Model AI (Machine Learning)
+├── readme.md                     # Dokumentasi ini
+├── requirements.txt              # Daftar library Python
+├── screenshot.png                # Gambar preview aplikasi
+└── utils.py                      # Fungsi bantuan (Logika Backend)
