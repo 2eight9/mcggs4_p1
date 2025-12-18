@@ -11,7 +11,7 @@
 
 Aplikasi ini dikembangkan untuk memprediksi peluang kemenangan (Win Rate) user dalam game **Magic Chess** berdasarkan kombinasi _Commander_, _Role_, dan _Faction_ yang digunakan. Proyek ini menggunakan algoritma Machine Learning yang telah dilatih dengan data historis pertandingan.
 
-🔗 **Link Aplikasi Live:** [Klik Disini](https://mcggpredictor-nyknw.streamlit.app/)
+🔗 **Link Aplikasi Live:** [Klik Disini](https://mcpredictai.streamlit.app/)
 
 ---
 
